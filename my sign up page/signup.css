@@ -1,0 +1,95 @@
+*{
+    max-width: auto;
+    max-height: 1005;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: auto;
+}
+body{
+    background-color: rgb(139, 134, 128);
+    max-height: 40%;   
+}
+h1{
+    margin-left: 22px;
+    margin-top: 44px;
+}
+
+.center{
+    background-color: rgb(103, 103, 86);
+    padding: 12px 12px;
+    border-radius: 26px;
+    width: 360px;
+}
+.email{
+    background-color: rgb(183, 193, 115);
+    color: rgb(253, 253, 253);
+    border-radius: 22px;
+    padding: 1px 1px 1px 38px;
+    border:double chartreuse 4px;
+    /* text-decoration: none; */
+    
+}
+.google{
+    background-color: white;
+    border-radius: 22px;
+    padding: 1px 1px 1px 38px;
+    border:double chartreuse 4px;
+}
+
+.google:hover{
+    background-color: chartreuse;
+}
+
+.fb{
+    background-color: blue;
+    border:double chartreuse 4px;
+    border-radius: 22px;
+    padding: 1px 1px 1px 38px;
+}
+.or{
+    margin-left: 176px;
+}
+.phone{
+    /* display: flex;
+    justify-content: center; */
+    border:double chartreuse 5px;
+    border-radius: 22px;
+    width: 265px;
+    padding: 10px;
+}
+.last{
+    margin-left: 48px;
+    cursor: pointer;
+}
+
+/* .email:hover {
+    background-color: rgb(125, 187, 64);
+    cursor: pointer;
+} */
+
+.email:hover {
+    background-color: rgb(125, 187, 64);
+    cursor:pointer;
+}
+
+.fb:hover {
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+.get-started{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor:pointer;
+}
+
+
+.fb:hover {
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
